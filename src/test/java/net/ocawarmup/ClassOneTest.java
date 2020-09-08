@@ -31,7 +31,7 @@ class ClassOneTest {
       ClassOne classOne = new ClassOne();
       int[] numbers = new int[10];
 
-      for (int x = 1; x < numbers.length; x++)
+      for (int x = 0; x < numbers.length; x++)
          numbers[x] = x * 2;
 
       assertEquals(4, classOne.replaceMultiplesOf3And5(numbers)[2]);
