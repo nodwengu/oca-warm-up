@@ -21,7 +21,7 @@ public class ClassOne implements SetValuesInterface, CalcValues {
 
 
    public int[] replaceMultiplesOf3And5(int[] numbers) {
-      for (int x = 1; x < numbers.length; x++) {
+      for (int x = 0; x < numbers.length; x++) {
          if (numbers[x] % 3 == 0 || numbers[x] % 5 == 0)
             numbers[x] = 0;
          //System.out.println(numbers[x]);
@@ -30,8 +30,8 @@ public class ClassOne implements SetValuesInterface, CalcValues {
    }
 
    public int[][] replaceMultiplesOf3And5TwoDArray(int[][] numbersArr) {
-      for (int x = 1; x < numbersArr.length; x++) {
-         for (int y = 1; y < numbersArr.length; y++) {
+      for (int x = 0; x < numbersArr.length; x++) {
+         for (int y = 0; y < numbersArr.length; y++) {
             numbersArr[x][y] = y * 2;
 
             if (numbersArr[x][y] % 3 == 0 || numbersArr[x][y] % 5 == 0)
