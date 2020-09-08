@@ -18,6 +18,6 @@ class MultiplesOfIntegerTest {
       MultiplesOfInteger multiplesOfInteger = new MultiplesOfInteger(numbers);
       multiplesOfInteger.setMultiple(3);
 
-      assertEquals(15, multiplesOfInteger.getSumOfNumber());
+      assertEquals(18, multiplesOfInteger.getSumOfNumber());
    }
 }

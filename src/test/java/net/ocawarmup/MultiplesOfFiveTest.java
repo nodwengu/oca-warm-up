@@ -16,7 +16,7 @@ class MultiplesOfFiveTest {
 
       SumOfMultiplesOfFive sumOfMultiplesOfFive = new SumOfMultiplesOfFive(numbers);
 
-      assertEquals(25, sumOfMultiplesOfFive.getSumOfMultiplesOfFive());
+      assertEquals(30, sumOfMultiplesOfFive.getSumOfMultiplesOfFive());
    }
 
 

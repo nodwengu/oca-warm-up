@@ -9,8 +9,8 @@ public class SumOfMultiplesOfFive {
 
    public int getSumOfMultiplesOfFive() {
       int sumOfMultiples = 0;
-      for (int x = 1; x < arrayList.length; x++) {
-         for (int y = 1; y < arrayList.length; y++) {
+      for (int x = 0; x < arrayList.length; x++) {
+         for (int y = 0; y < arrayList.length; y++) {
             if (arrayList[x][y] % 5 == 0) {
                sumOfMultiples += arrayList[x][y];
             }

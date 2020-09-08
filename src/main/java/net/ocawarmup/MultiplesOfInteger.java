@@ -15,8 +15,8 @@ public class MultiplesOfInteger {
    public int getSumOfNumber() {
       int sum = 0;
 
-      for (int x = 1; x < numbers.length; x++) {
-         for (int y = 1; y < numbers.length; y++) {
+      for (int x = 0; x < numbers.length; x++) {
+         for (int y = 0; y < numbers.length; y++) {
             if (numbers[x][y] % multiple == 0)
                sum += numbers[x][y];
             //System.out.print(numbers[x][y]);
