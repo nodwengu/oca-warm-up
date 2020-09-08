@@ -44,8 +44,8 @@ class ClassOneTest {
 
       int[][] numbersArr = new int[10][10];
 
-      for (int x = 1; x < numbersArr.length; x++) {
-         for (int y = 1; y < numbersArr.length; y++) {
+      for (int x = 0; x < numbersArr.length; x++) {
+         for (int y = 0; y < numbersArr.length; y++) {
             numbersArr[x][y] = y * 2;
 
             if (numbersArr[x][y] % 3 == 0 || numbersArr[x][y] % 5 == 0)
